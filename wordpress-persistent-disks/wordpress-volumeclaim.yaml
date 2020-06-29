@@ -7,4 +7,6 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 200Gi
+      storage: 70Gi
+parameters:
+ type: pd-ssd
